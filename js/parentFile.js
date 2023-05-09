@@ -21,7 +21,7 @@ $(document).ready(function () {
   }
   loadParentCount();
 
-  // load more data here================
+  // load more data here=================
   function loadParentData(page) {
     $.ajax({
       url: "assets/ajax/parent_ajax/fetch_parent_data.php",
