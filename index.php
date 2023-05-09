@@ -2,6 +2,7 @@
 session_start();
 if(!isset($_SESSION['username'])){
   header("location:assets/admin_login.php");
+  header("location:assets/teacher_login.php");
 }
 include "assets/conn/conn.php"; 
 ?>
