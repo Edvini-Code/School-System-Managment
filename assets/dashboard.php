@@ -7,7 +7,7 @@
   border-radius:50px;
   display:flex;
   align-items:center;
-  background-color: #2D446E;
+  background-color: #2D446E; 
   color: #fff;
   padding: 10px;
   margin:10px 0px;
