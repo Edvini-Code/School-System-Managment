@@ -22,7 +22,7 @@
                 <div id="see_student" class="student_tabcontent">
                      <div class="student_search">
                        <form action="#" id="student_data_search">
-                         <input type="text" class="search_input" placeholder="Search students...">
+                         <input type="text" class="search_input" placeholder="Search students..."> 
                        </form>
                      </div>
                      <div class="row" id="student_row">
