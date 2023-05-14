@@ -7,7 +7,7 @@
         <div class="teacher_tab_inner">
           <button
             class="t_btn_tablinks"
-            onclick="teacherFunc(event, 'see_teacher')"
+            onclick="teacherFunc(event, 'see_teacher')" 
             id="t_defaultOpen"
           >
             <i class="fas fa-info-circle"></i>
