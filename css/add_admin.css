@@ -53,7 +53,7 @@ body {
   border: none;
   background-color: #f0f1f3;
   margin: 10px 0px 15px 0px;
-  padding: 15;
+  padding: 15px;
 }
 .add_admin .add_new_add_admin .row1 .row1_inner2 input {
   width: 100%;
@@ -86,15 +86,7 @@ body {
   width: 49%;
 }
 
-/* .add_admin .add_new_add_admin .row1 .row1_inner1 input {
-      width: 100%;
-      outline: none;
-      box-shadow: none;
-      border: none;
-      background-color: #f0f1f3;
-      margin: 10px 0px 15px 0px;
-      padding: 15px;
-    } */
+
 .add_admin .add_new_add_admin .row2 .row2_inner1 input {
   width: 100%;
   outline: none;
@@ -154,26 +146,7 @@ body {
   margin: 10px 0px 15px 0px;
   padding: 15px;
 }
-/* .add_admin .add_new_add_admin .row2 .row2_inner1 select {
-        width: 100%;
-        outline: none;
-        cursor: pointer;
-        box-shadow: none;
-        border: none;
-        background-color: #f0f1f3;
-        margin: 10px 0px 15px 0px;
-        padding: 15px;
-      }
-      .add_admin .add_new_add_admin .row2 .row2_inner2 select {
-        width: 100%;
-        border: none;
-        cursor: pointer;
-        outline: none;
-        box-shadow: none;
-        background-color: #f0f1f3;
-        margin: 10px 0px 15px 0px;
-        padding: 15px;
-      } */
+
 .add_admin .add_new_add_admin .add_save_btn {
   padding: 10px 25px;
   width: 200px;
@@ -181,8 +154,8 @@ body {
   color: #fff;
   font-size: 25px;
   font-weight: 550;
-  background-color: yellowgreen;
-  border: 1px solid yellowgreen;
+  background-color: rgb(60, 60, 169);
+  border: 1px solid rgb(60, 60, 169);
 }
 .add_admin .add_new_add_admin .add_save_btn:hover {
   background-color: transparent;
@@ -208,7 +181,7 @@ body {
   font-size: 15px;
 }
 .add_admin .all_add_admin_schedule .header_add_admin_schedule_table button {
-  background-color: yellowgreen;
+  background-color: rgb(60, 60, 169);
   color: #fff;
   border: none;
   padding: 5px 15px;
@@ -230,7 +203,7 @@ body {
 #add_admin_table th {
   padding: 15px;
   border: 1px solid #ddd;
-  background-color: yellowgreen;
+  background-color: rgb(60, 60, 169);
   color: #fff;
 }
 #add_admin_table td {
@@ -275,15 +248,15 @@ span.add_page-link {
   transition: 0.5s;
   color: #000;
   cursor: pointer;
-  border: 1px solid yellowgreen;
+  border: 1px solid rgb(60, 60, 169);
   margin: 0px 5px;
 }
 #showAddAdminData ul.pagination li:hover {
-  background-color: yellowgreen;
+  background-color: rgb(60, 60, 169);
   color: #fff;
 }
 #showAddAdminData ul.pagination li.active {
-  background-color: yellowgreen;
+  background-color: rgb(60, 60, 169);
   color: #fff;
 }
 #showAddAdminData ul.pagination li.active:hover {
@@ -306,7 +279,7 @@ span.add_page-link {
 }
 
 #add_admin_table td.add_action .add_action_content button {
-  border: 1px solid#04aa6d;
+  border: 1px solid#271b63;
   cursor: pointer;
   width: 100%;
   margin: 5px 0px;
