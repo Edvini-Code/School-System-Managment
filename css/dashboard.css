@@ -19,63 +19,54 @@
   color: #fff;
   padding: 20px;
 } */
-/*.dashboard .cover-img {
-  position: relative;
-} */
 
 .dashboard .cover-img img {
   width: 100%;
   height: 40vh;
   -o-object-fit: cover;
   object-fit: cover;
-}
-
-.dashboard .cover-img .text {
-  position: absolute;
-  top: 30%;
-  left: 30%;
-}
-
-.dashboard .cover-img .text h1 {
-  font-family: "Limelight", cursive;
-  font-size: 70px;
-  color: #e4e6eb;
-}
-
-.dashboard .cover-img .text p {
-  font-size: 23px;
-  line-height: 29px;
-  color: #e4e6eb;
-}
-.all-info {
-  background-color: #f0f1f3;
-}
-.all-info .row {
-  background-color: #f0f1f3;
-  width: 94%;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.all-info .row .col {
-  width: 24%;
-}
-
-.all-info .row .col .card {
-  width: 100%;
-  margin: 6% 0px;
-}
+  }
+  
+  .dashboard .cover-img .text {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+  }
+  
+  .dashboard .cover-img .text h1 {
+    font-family: "Limelight", cursive;
+    font-size: 70px;
+    color: #e4e6eb;
+  }
+  
+  .dashboard .cover-img .text p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #e4e6eb;
+  }
+  
+  .all-info .row {
+    background-color: #f0f1f3;
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .all-info .row .col {
+    width: 23%;
+  }
+  
+  .all-info .row .col .card {
+    width: 100%;
+    margin: 6% 0px;
+  }
 
 .all-info .row .col .card .teacher-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: red;
+  background-color: rgb(8, 111, 116);
   padding: 10px 0px;
 }
 
@@ -110,16 +101,16 @@
 }
 
 .all-info .row .col .card .teacher-inner .column-right .fa-chart-bar {
-  font-size: 80px;
-  color: #ccc;
-  padding: 0px 7px;
   opacity: 0.4;
+  font-size: 80px;
+  padding: 0px 7px;
+  animation: changeColor 5s infinite;
 }
 
 .all-info .row .col .card .teacher-footer {
   text-align: center;
   padding: 5px 0px;
-  background-color: #b81717;
+  background-color: #a31849;
 }
 
 .all-info .row .col .card .teacher-footer a {
@@ -166,10 +157,10 @@
 }
 
 .all-info .row .col .card .attendance-inner .column-right .fa-user-plus {
+  opacity: 0.4;
   font-size: 80px;
   padding: 0px 7px;
-  opacity: 0.4;
-  color: #ccc;
+  animation: changeColor 5s infinite;
 }
 
 .all-info .row .col .card .attendance-footer {
@@ -184,12 +175,13 @@
 }
 
 .all-info .row .col .card .students-inner {
-  padding: 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #2D446E;
+  background-color: rgb(52, 181, 1);
+  padding: 10px 0px;
 }
+
 
 .all-info .row .col .card .students-inner .column {
   width: 50%;
@@ -220,23 +212,30 @@
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
+@keyframes changeColor {
+  0% { color: rgb(40, 241, 0); }
+  33% { color: blue; }
+  66% { color: rgb(128, 73, 0); }
+  100% { color: red; }
+}
 
 .all-info .row .col .card .students-inner .column-right .fa-chart-pie {
   opacity: 0.4;
   font-size: 80px;
   padding: 0px 7px;
-  color: #ccc;
+  animation: changeColor 5s infinite;
 }
+
 
 .all-info .row .col .card .students-footer {
   text-align: center;
   padding: 5px 0px;
-  background-color: #2D446E;
+  background-color: #830101;
 }
 
 .all-info .row .col .card .students-footer a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 
 .all-info .row .col .card .accountants-inner {
@@ -276,12 +275,20 @@
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
-
+@keyframes changeColor {
+  0% { color: rgb(50, 239, 17); }
+  10% { color: rgb(17, 105, 130); }
+  33% { color: rgb(185, 216, 28); }
+  33% { color: rgb(210, 47, 47); }
+  33% { color: rgb(178, 28, 135); }
+  66% { color: rgb(25, 86, 9); }
+  100% { color: rgb(106, 17, 112); }
+}
 .all-info .row .col .card .accountants-inner .column-right .fa-chart-bar {
   opacity: 0.4;
   font-size: 80px;
   padding: 0px 7px;
-  color: #ccc;
+  animation: changeColor 5s infinite;
 }
 
 .all-info .row .col .card .accountants-footer {
@@ -300,7 +307,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #7777fc;
+  background-color: #920f90;
 }
 
 .all-info .row .col .card .parents-inner .column {
@@ -343,7 +350,7 @@
 .all-info .row .col .card .parents-footer {
   text-align: center;
   padding: 5px 0px;
-  background-color: #3b3b85;
+  background-color: hsl(226, 100%, 43%);
 }
 
 .all-info .row .col .card .parents-footer a {
@@ -412,7 +419,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #cf2727;
+  background-color: #c3700a;
 }
 
 .all-info .row .col .card .librarian-inner .column {
@@ -455,7 +462,7 @@
 .all-info .row .col .card .librarian-footer {
   text-align: center;
   padding: 5px 0px;
-  background-color: #9b0606;
+  background-color: #acab9d;
 }
 
 .all-info .row .col .card .librarian-footer a {
@@ -468,7 +475,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #cf2727;
+  background-color: #148693;
 }
 
 .all-info .row .col .card .notice-inner .column {
@@ -511,7 +518,7 @@
 .all-info .row .col .card .notice-footer {
   text-align: center;
   padding: 5px 0px;
-  background-color: #9b0606;
+  background-color: #0d515f;
 }
 
 .all-info .row .col .card .notice-footer a {
