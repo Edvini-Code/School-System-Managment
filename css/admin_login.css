@@ -14,7 +14,7 @@
   width: 30%;
 
   height: 100vh;
-  background-color: red;
+  background-color: rgb(60, 60, 169);
 }
 .login_page .row .right {
   width: 70%;
@@ -41,7 +41,7 @@
   align-items: center;
   width: 27%;
   /*  */
-  background-color: #2D446E;
+  background-color: #727ec3;
 }
 .login_page .row2 .left h3 {
   font-size: 55px;
