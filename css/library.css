@@ -17,7 +17,7 @@ body {
   margin: 0px 10px;
 }
 #library .library_location .all_library_para {
-  color: yellowgreen;
+  color: rgb(60, 60, 169);
 }
 #library .library_data {
   width: 100%;
@@ -33,15 +33,15 @@ body {
   font-size: 15px;
   line-height: 23px;
   font-weight: 550;
-  border: 1px solid yellowgreen;
-  background-color: yellowgreen;
+  border: 1px solid rgb(60, 60, 169);
+  background-color: rgb(60, 60, 169);
   display: block;
   margin: auto;
   z-index: 60000;
 }
 #library .library_data #library_table #showlibraryData #library_loadBtn:hover {
   background-color: transparent;
-  border: 1px solid yellowgreen;
+  border: 1px solid rgb(60, 60, 169);
   color: #000;
 }
 #library .library_data .library_data_header {
@@ -51,12 +51,12 @@ body {
 #library .library_data .library_data_header .library_data_btn {
   padding: 10px 25px;
   cursor: pointer;
-  background-color: yellowgreen;
+  background-color: rgb(60, 60, 169);
   color: #fff;
   font-size: 23px;
   line-height: 20px;
   font-weight: 600;
-  border: 1px solid yellowgreen;
+  border: 1px solid rgb(60, 60, 169);
   transition: 0.4s;
 }
 #library .library_data .library_data_header .library_data_btn:hover {
@@ -82,13 +82,7 @@ body {
   border: none;
   border-bottom: 1px solid #ddd;
 }
-/* span.page-link {
-  cursor: pointer;
-}
-.pagination {
-  display: flex;
-  justify-content: center;
-} */
+
 #library_table td.p_action #library_action_icon {
   cursor: pointer;
   position: relative;
@@ -115,15 +109,15 @@ body {
   transition: 0.5s;
   color: #000;
   cursor: pointer;
-  border: 1px solid yellowgreen;
+  border: 1px solid rgb(60, 60, 169);
   margin: 0px 5px;
 }
 #showLibraryData ul.pagination li:hover {
-  background-color: yellowgreen;
+  background-color: rgb(60, 60, 169);
   color: #fff;
 }
 #showLibraryData ul.pagination li.active {
-  background-color: yellowgreen;
+  background-color: rgb(60, 60, 169);
   color: #fff;
 }
 #showLibraryData ul.pagination li.active:hover {
@@ -155,39 +149,13 @@ body {
   line-height: 26px;
   font-weight: 500;
 }
-/* #library_table td.l_action .l_action_content a.email {
-  background-color: #04aa6d;
-  color: #fff;
-  text-decoration: none;
-  border: 1px solid#04aa6d;
-  cursor: pointer;
-  width: 100%;
-  margin: 10px 0px;
-  padding: 5px 10px;
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: 500;
-}
-#library_table td.l_action .l_action_content a.email:hover {
-  background-color: transparent;
-  color: #000;
-}
-#library_table tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
 
-#library_table tr:hover {
-  background-color: #ddd;
-}
-#library_table td:last-child {
-  background-color: none;
-} */
 
 #library_table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: yellowgreen;
+  background-color: rgb(60, 60, 169);
   color: white;
 }
 #library #library_modal {
@@ -258,10 +226,10 @@ body {
   font-size: 17px;
   font-weight: 600;
   line-height: 23px;
-  background-color: yellowgreen;
+  background-color: rgb(60, 60, 169);
 }
 #library_formData #l_library_btn:hover {
   background-color: transparent;
-  border: 1px solid yellowgreen;
+  border: 1px solid rgb(60, 60, 169);
   color: #000;
 }
