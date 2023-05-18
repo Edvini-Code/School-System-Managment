@@ -24,7 +24,7 @@ $(document).ready(function () {
         $("#showHostelData").html(data);
       },
     });
-  }
+  } 
   loadHostelData();
   $(document).on("click", ".h_page-item", function (e) {
     e.preventDefault();
