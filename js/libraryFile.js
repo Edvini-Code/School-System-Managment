@@ -22,7 +22,7 @@ $(document).ready(function () {
         $("#showLibraryData").html(data);
       },
     });
-  }
+  } 
   loadLibraryData();
   $(document).on("click", ".l_page-item", function (e) {
     e.preventDefault();
