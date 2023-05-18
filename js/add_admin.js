@@ -19,19 +19,7 @@ $(document).ready(function () {
     });
   });
 
-  // count transport data =========================
-  //   function loadHostelCount() {
-  //     $.ajax({
-  //       url: "assets/ajax/hostel_ajax/hostel_count.php",
-  //       type: "POST",
-  //       success: function (fetchHostel) {
-  //         $("#hostelCount").html(fetchHostel);
-  //       },
-  //     });
-  //   }
-  //   loadHostelCount();
-  //     load More pages with table ==============
-  //   load more data here================
+
   function loadAddAdminData(page) {
     $.ajax({
       url: "assets/ajax/add_admin_ajax/fetch_admin_data.php",
