@@ -138,7 +138,7 @@
         <div class="details_modal_body">
             <div id="hide_details_modal">X</div>
             <div class="details_modal_body_inner">
-              <!-- details data show here ============ -->
+              <!-- details data show here ============ --> 
               
             </div>
         </div>
