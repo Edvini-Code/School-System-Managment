@@ -36,7 +36,7 @@
   ?>
   </h1>
     <h1 style="color:white;font-size:35px"><?php echo $_SESSION['username']; ?></h1>
-    <h1 style="font-size:35px;margin-left:200px"><?php echo date('M d, Y'); ?></h1>
+    <h1 style="font-size:35px;margin-left:200px"><?php echo date('M d, Y'); ?></h1> 
     </div>
   </div>
       <div class="cover-img">
