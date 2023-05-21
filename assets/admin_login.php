@@ -219,7 +219,7 @@ input[type="password"] {
     //       x.type = "password";
     //     }
     //   }
-    </script>
+    </script> 
 
         <script src="../js/admin_login.js"></script>
 
