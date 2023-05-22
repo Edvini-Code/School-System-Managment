@@ -13,7 +13,7 @@ function teacherFunc(evt, teacherName) {
   }
   
   // Get the element with id="defaultOpen" and click on it
-  document.getElementById("t_defaultOpen").click();
+  document.getElementById("t_defaultOpen").click(); 
   
   $(document).ready(function () {
     // fetch male teacher here==========================
