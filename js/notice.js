@@ -23,7 +23,7 @@ $(document).ready(function () {
         $("#ShowNoticesCount").html(fetchNoticeCount);
       },
     });
-  }
+  } 
  countNoticeData();
   $("#n_save_btn").on("click", function (e) {
     e.preventDefault();
