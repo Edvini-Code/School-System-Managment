@@ -21,7 +21,7 @@ include "assets/conn/conn.php";
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
       integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
       crossorigin="anonymous"
-    />
+    /> 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>UBT School System</title>
     <link rel="stylesheet" href="css/students.css">
