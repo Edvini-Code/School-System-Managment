@@ -19,7 +19,7 @@ $(document).ready(function () {
       },
     });
   }
-  loadParentCount();
+  loadParentCount(); 
 
   // load more data here=================
   function loadParentData(page) {
