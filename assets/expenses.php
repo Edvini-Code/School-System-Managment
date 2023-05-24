@@ -4,7 +4,7 @@
                 <p>Home</p>
                 <i class="fas fa-chevron-right"></i>
                 <p class="all_expenses_para">Expenses</p> 
-        </span>
+        </span> 
         <!-- exam add section start============================================== -->
         <div class="add_new_expenses">
                 <h1>Add New Expenses</h1>
