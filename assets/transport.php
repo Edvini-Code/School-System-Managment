@@ -4,7 +4,7 @@
                 <p>Home</p>
                 <i class="fas fa-chevron-right"></i>
                 <p class="all_transport_para">Transport</p> 
-        </span>
+        </span> 
         <!-- exam add section start============================================== -->
         <div class="add_new_transport">
                 <h1>Add New Transport</h1>
