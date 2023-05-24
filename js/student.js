@@ -10,7 +10,7 @@ function studentFunc(evt, studentName) {
   }
   document.getElementById(studentName).style.display = "block";
   evt.currentTarget.className += " active_s";
-}
+} 
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("s_defaultOpen").click();
