@@ -54,12 +54,12 @@
                                     <input type="text" id="p_occupation" name="p_occupation" required />
                                     <br />
                                     <label for="p_address">Address</label>
-                                    <input
+                                   <input
                                       type="text"
                                       id="p_address"
                                       name="p_address"
                                       required
-                                    />
+                                    /> 
                                     <br />
                                     <label for="p_phone">Phone</label>
                                     <input
