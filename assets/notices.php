@@ -1,6 +1,6 @@
 <section class="notices">
          <h1>Notice board</h1>
-        <span class="notice_location">
+        <span class="notice_location"> 
                 <p>Home</p>
                 <i class="fas fa-chevron-right"></i>
                 <p class="all_notice_para">Notices</p> 
