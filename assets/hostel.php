@@ -4,7 +4,7 @@
                 <p>Home</p>
                 <i class="fas fa-chevron-right"></i>
                 <p class="all_hostel_para">Hostel</p> 
-        </span>
+        </span> 
         <!-- exam add section start============================================== -->
         <div class="add_new_hostel">
                 <h1>Add New Hostel Room</h1>
