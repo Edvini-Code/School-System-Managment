@@ -10,7 +10,7 @@
   background-color: #2D446E; 
   color: #fff;
   padding: 10px;
-  margin:10px 0px;
+  margin:10px 0px; 
   ">
   <h1 style="margin:0px 15px">
   <?php
