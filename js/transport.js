@@ -29,7 +29,7 @@ $(document).ready(function () {
     e.preventDefault();
     var page = $(this).attr("id");
     loadTransportData(page);
-  });
+  }); 
   //   // load more data here================
   $(document).on("click", "#transport_action_icon", function () {
     var transportID = $(this).data("t_action");
