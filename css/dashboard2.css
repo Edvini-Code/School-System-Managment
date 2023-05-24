@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #f0f1f3;
-}
+} 
 .chart .row .chart_left,
 .chart_right {
   padding: 25px;
