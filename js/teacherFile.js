@@ -36,7 +36,7 @@ function teacherFunc(evt, teacherName) {
           $("#fetchFemale_teacher_count").html(fetchFemale);
         },
       });
-    }
+    } 
     fetchFemale_teacher_count();
   
     // function fetchFemale_teacher_count() {
